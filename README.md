@@ -1,8 +1,3 @@
-Here’s a complete `README.md` file for your **VoteLink** project, tailored for GitHub or any documentation platform:
-
----
-
-```markdown
 # VoteLink - Secure Offline & Blockchain-Based Voting System
 
 VoteLink is a hybrid voting platform designed for regions with limited internet connectivity. It combines **offline vote collection**, **IPFS for decentralized data storage**, and a **blockchain smart contract** for transparent and tamper-proof vote validation and result tallying.
@@ -26,6 +21,7 @@ In many parts of Africa and other developing regions, elections are plagued by m
 - 🔍 Web-based vote explorer: `https://votelinkexplorer.com/{voteHash}`
 
 ## 🧱 Architecture Overview
+
 ```
 
 \[Raspberry Pi + Biometric Scanner + Kivy GUI]
@@ -44,7 +40,7 @@ In many parts of Africa and other developing regions, elections are plagued by m
 ↓
 \[VoteLink Blockchain Explorer]
 
-````
+```
 
 ## ⚙️ Technologies Used
 
@@ -75,13 +71,14 @@ In many parts of Africa and other developing regions, elections are plagued by m
 ## 🚀 How to Run
 
 ### 1. Setup on Raspberry Pi
+
 ```bash
 sudo apt update
 sudo apt install python3-pip ipfs
 pip3 install -r requirements.txt
 ipfs init
 ipfs daemon
-````
+```
 
 ### 2. Start Kivy App
 
